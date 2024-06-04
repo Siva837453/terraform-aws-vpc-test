@@ -7,10 +7,10 @@ terraform {
   }
     backend "s3" {
     bucket = "siva-remote-state"
-    key    = "module-test"
+    key    = "Expense-vpc"
     region = "us-east-1"
     dynamodb_table = "remote-lockid"
-}
+ }
 
 }
 
